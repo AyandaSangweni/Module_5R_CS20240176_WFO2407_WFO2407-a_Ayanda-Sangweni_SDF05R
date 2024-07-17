@@ -51,4 +51,192 @@ p {
     outline: none;
 }
 
-/* Add your custom styles for btn-1, btn-2, and btn-3 */
+/* .btn-1 is styled as .btn-9 from CodePen */
+.btn-1 {
+    border: none;
+    transition: all 0.3s ease;
+    overflow: hidden;
+  }
+  .btn-1:after {
+    position: absolute;
+    content: " ";
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1fd1f9;
+    background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+    transition: all 0.3s ease;
+  }
+  .btn-1:hover {
+    background: transparent;
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.5),
+      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+    color: #fff;
+  }
+  .btn-1:hover:after {
+    -webkit-transform: scale(2) rotate(180deg);
+    transform: scale(2) rotate(180deg);
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.5),
+      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+}
+
+/* .btn-2 is styled as .btn-8 from codepen */
+.btn-2 {
+    background-color: #f0ecfc;
+    background-image: linear-gradient(315deg, #f0ecfc 0%, #c797eb 74%);
+    line-height: 42px;
+    padding: 0;
+    border: none;
+  }
+  .btn-2 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .btn-2:before,
+  .btn-2:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    background: #c797eb;
+    /*box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.5),
+      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);*/
+    transition: all 0.3s ease;
+  }
+  .btn-2:before{
+     height: 0%;
+     width: 2px;
+  }
+  .btn-2:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-2:hover:before {
+    height: 100%;
+  }
+  .btn-2:hover:after {
+    width: 100%;
+  }
+  .btn-2:hover{
+    background: transparent;
+  }
+  .btn-2 span:hover{
+    color: #c797eb;
+  }
+  .btn-2 span:before,
+  .btn-2 span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    background: #c797eb;
+    /*box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.5),
+      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);*/
+    transition: all 0.3s ease;
+  }
+  .btn-2 span:before {
+    width: 2px;
+    height: 0%;
+  }
+  .btn-2 span:after {
+    height: 2px;
+    width: 0%;
+  }
+  .btn-2 span:hover:before {
+    height: 100%;
+  }
+  .btn-2 span:hover:after {
+    width: 100%;
+  }
+  
+  /* .btn-3 is styled as .btn-6 from codepen */
+  .btn-3 {
+    background: rgb(247,150,192);
+    background: radial-gradient(circle, rgba(247,150,192,1) 0%, rgba(118,174,241,1) 100%);
+    line-height: 42px;
+    padding: 0;
+    border: none;
+  }
+  .btn-3 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .btn-3:before,
+  .btn-3:after {
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 1px;
+    box-shadow:
+      -1px -1px 20px 0px rgba(255,255,255,1),
+      -4px -4px 5px 0px rgba(255,255,255,1),
+      7px 7px 20px 0px rgba(0,0,0,.4),
+      4px 4px 5px 0px rgba(0,0,0,.3);
+  }
+  .btn-3:before {
+    right: 0;
+    top: 0;
+    transition: all 500ms ease;
+  }
+  .btn-3:after {
+    left: 0;
+    bottom: 0;
+    transition: all 500ms ease;
+  }
+  .btn-3:hover{
+    background: transparent;
+    color: #76aef1;
+    box-shadow: none;
+  }
+  .btn-3:hover:before {
+    transition: all 500ms ease;
+    height: 100%;
+  }
+  .btn-3:hover:after {
+    transition: all 500ms ease;
+    height: 100%;
+  }
+  .btn-3 span:before,
+  .btn-3 span:after {
+    position: absolute;
+    content: "";
+    box-shadow:
+      -1px -1px 20px 0px rgba(255,255,255,1),
+      -4px -4px 5px 0px rgba(255,255,255,1),
+      7px 7px 20px 0px rgba(0,0,0,.4),
+      4px 4px 5px 0px rgba(0,0,0,.3);
+  }
+  .btn-3 span:before {
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: .5px;
+    transition: all 500ms ease;
+  }
+  .btn-3 span:after {
+    right: 0;
+    bottom: 0;
+    width: 0%;
+    height: .5px;
+    transition: all 500ms ease;
+  }
+  .btn-3 span:hover:before {
+    width: 100%;
+  }
+  .btn-3 span:hover:after {
+    width: 100%;
+  }
