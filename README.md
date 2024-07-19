@@ -1,40 +1,44 @@
-# [SDF05] CSS Magic Buttons
+# Magic Buttons Project
 
-Get ready to create animated buttons using CSS! This project focuses on creating three unique animated buttons using CSS. With this challenge, you'll dive into the world of CSS animations, transitions, and interactivity.
-
-## Learning Goals
-
-By completing this project, you will learn to:
-
-- Design engaging button animations with CSS.
-- Master the use of CSS transitions and animations for interactive effects.
-
-![alt text](./images/image.png)
+This is a simple webpage project one gets to style three buttons with different animations. Each button uses a unique style inspired by various button animations from CodePen.
 
 ## Project Overview
 
-### Time Estimate: 2 hours
+The project involves cloning a starter code from GitHub and adding custom CSS styles to buttons. Each button has a unique animation and styling inspired by examples from CodePen.
 
-## What you Need to Do:
+## Button Styles and Animations
 
-1. **Starter Code**: Clone the starter code from GitHub for your project. The HTML structure is provided, and you'll focus on adding styles in the `style.css` file.
+### Button 1: A Gradient Expand
 
-    - Starter code can be found here: https://github.com/CodeSpace-Academy/Module_5R_StudentNo_Classcode_Group_Name-Surname_SDF05R
+- **Class:** .btn-1
+- **Inspiration:** CodePen button .btn-9
+- **Animation Description:** When hovered over, the button's background changes from a gradient to transparent. Simultaneously, a scaled version of the gradient appears behind the button with a rotating effect, creating a dynamic, eye-catching transition. The box-shadow also changes, enhancing the 3D appearance of the button.
 
-2. **Write your CSS Styles**: Create your animations from scratch. Need a hint of inspiration? You're welcome to go through our curated buttons for inspiration: [View Reference](https://codepen.io/codespace-academy/pen/xxmWrjX). 
+### Button 2: A Border Expand
 
-3. **Prepare Your Repository**: 
-    - Save all chanes and update your GitHub repository with the final versions of all files.
-    - Include a `README.md` file that outlines the project, your design choices, and any notes on challenges you faced or features you're particularly proud of.
-    - Ensure your repository is set to public so it can be accessed by your code coach.
+- **Class:** .btn-2
+- **Inspiration:** CodePen button .btn-8
+- **Animation Description:** On hover, the button's background fades to transparent, and borders expand from the center to the edges of the button. This creates a frame-like effect. The text color also changes to match the border color, providing a cohesive visual effect.
 
-4. **Submit on LMS**:
-    - Submit the link to your GitHub repository on the LMS under the project tab.
+### Button 3: A Radial Gradient Border
 
-Embark on this CSS journey to transform simple buttons into interactive, animated elements. Let your creativity shine and enjoy the process of bringing static elements to life!
+- **Class:** .btn-3
+- **Inspiration:** CodePen button .btn-6
+- **Animation Description:** When the button is hovered over, its background becomes transparent, and borders appear from the corners, growing to create a frame around the button. This transition is accompanied by a change in text color and the disappearance of the initial box-shadow, giving a clean and defined look.
 
+## Design Choices
 
-## Submission Guidelines
-- Submit the link to your GitHub repository on the LMS under the project tab.
+- **A Gradient Expand:** I chose it  for its visually appealing transformation and depth effect, enhancing user interaction.
+- **A Border Expand:** I chose it because it provides a clean, minimalist design with a subtle but noticeable animation.
+- **A Radial Gradient Border:** I chose it because of its sophisticated look, adding a modern touch with a smooth border animation.
+- I also chose all of them because I like the colour purple and they were all  really cute.
 
-Embark on this CSS journey to transform simple buttons into interactive, animated elements. Let your creativity shine and enjoy the process of bringing static elements to life!
+## Challenges
+
+- **Integration:** Incorporating animations from CodePen into a cohesive design without conflicting styles.
+- **Cross-Browser Compatibility:** Ensuring that each animation works seamlessly across different browsers and devices.
+
+## Features
+
+- **Dynamic Animations:** Each button has a unique hover effect that enhances the user interface.
+- **Responsive Design:** The buttons are styled to be responsive and visually appealing.
