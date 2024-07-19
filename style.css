@@ -51,7 +51,6 @@ p {
     outline: none;
 }
 
-/* .btn-1 is styled as .btn-9 from CodePen */
 .btn-1 {
     border: none;
     transition: all 0.3s ease;
@@ -86,7 +85,6 @@ p {
       inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
 }
 
-/* .btn-2 is styled as .btn-8 from codepen */
 .btn-2 {
     background-color: #f0ecfc;
     background-image: linear-gradient(315deg, #f0ecfc 0%, #c797eb 74%);
@@ -161,7 +159,6 @@ p {
     width: 100%;
   }
   
-  /* .btn-3 is styled as .btn-6 from codepen */
   .btn-3 {
     background: rgb(247,150,192);
     background: radial-gradient(circle, rgba(247,150,192,1) 0%, rgba(118,174,241,1) 100%);
